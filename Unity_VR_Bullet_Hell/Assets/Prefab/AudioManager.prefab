@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1534648148249165362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534648148249165364}
+  - component: {fileID: 1534648148249165363}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1534648148249165364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534648148249165362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.869465, y: 0.16214843, z: 1.5199727}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1534648148249165363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534648148249165362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414a17908410e1b49b1d5930098bc8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSources: 64
+  clips:
+  - {fileID: 8300000, guid: fa5eec4160c684944a2db9139b43c550, type: 3}
+  - {fileID: 8300000, guid: ef7aee74b51630f478de4e7b696d6c5a, type: 3}
+  - {fileID: 8300000, guid: c5ecf959f7ef99841800127c046f857e, type: 3}
+  - {fileID: 8300000, guid: 218063219516d1e4e85cf59ecb28d31b, type: 3}
+  - {fileID: 8300000, guid: 5fe98fc99c3db2b46a3c77287817143d, type: 3}
+  - {fileID: 8300000, guid: 6a639e88152e91843a6ae0938908bc9b, type: 3}
+  - {fileID: 8300000, guid: daadf0be63db2b243a8c5371bdac9a54, type: 3}
+  - {fileID: 8300000, guid: 05ac2159b87ac384dacef3d0e95b7200, type: 3}
+  - {fileID: 8300000, guid: db79c0eca9d5bac4ba430c8b0dff78ad, type: 3}
+  - {fileID: 8300000, guid: 4493ac4915f3ab94d81d5630a4323d24, type: 3}
+  - {fileID: 8300000, guid: 8602cb547704f4e4ca41257ee9a7e1bc, type: 3}
+  tracks:
+  - {fileID: 8300000, guid: 7e4b1463248fe0244936d1ef16bcdafc, type: 3}
+  trackIntros:
+  - {fileID: 8300000, guid: 64f4740cd56706445943396c80604a84, type: 3}
+  loopingChannels: []
+  loopingSourcePositions: []
+  soundVolume: 0
+  musicVolume: 1
+  currentTrack: 0
+  listener: {fileID: 0}
+  sourcePrefab: {fileID: 3048837711066349602, guid: 704ede699000c3746a88888089d7be6a,
+    type: 3}
